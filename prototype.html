@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pritesh Patil | Software Engineer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&amp;family=Space+Grotesk:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "tertiary-container": "#b1fe4d",
+                "surface-variant": "#192540",
+                "on-error-container": "#ffa8a3",
+                "surface-container-low": "#091328",
+                "on-primary-container": "#00343e",
+                "error-dim": "#d7383b",
+                "on-tertiary-container": "#3a5f00",
+                "tertiary-dim": "#a4ef3f",
+                "primary-fixed": "#53ddfc",
+                "on-primary-fixed": "#003640",
+                "surface-container": "#0f1930",
+                "on-surface": "#dee5ff",
+                "surface-bright": "#1f2b49",
+                "outline-variant": "#40485d",
+                "background": "#060e20",
+                "on-surface-variant": "#a3aac4",
+                "on-tertiary-fixed": "#2d4b00",
+                "tertiary": "#e7ffc4",
+                "surface": "#060e20",
+                "inverse-primary": "#00687b",
+                "tertiary-fixed-dim": "#a4ef3f",
+                "on-tertiary-fixed-variant": "#416a00",
+                "secondary-fixed-dim": "#dbb4ff",
+                "outline": "#6d758c",
+                "on-primary-fixed-variant": "#005564",
+                "on-secondary-fixed-variant": "#7511c3",
+                "surface-tint": "#53ddfc",
+                "tertiary-fixed": "#b1fe4d",
+                "primary-dim": "#40ceed",
+                "on-secondary-container": "#e9cdff",
+                "surface-container-lowest": "#000000",
+                "primary-fixed-dim": "#40ceed",
+                "surface-container-highest": "#192540",
+                "primary": "#53ddfc",
+                "on-tertiary": "#406800",
+                "on-secondary": "#33005b",
+                "inverse-on-surface": "#4d556b",
+                "inverse-surface": "#faf8ff",
+                "primary-container": "#21bedc",
+                "secondary-fixed": "#e5c6ff",
+                "error": "#ff716c",
+                "secondary-container": "#6f00be",
+                "on-secondary-fixed": "#4f0089",
+                "on-background": "#dee5ff",
+                "surface-container-high": "#141f38",
+                "secondary": "#c180ff",
+                "on-primary": "#004b58",
+                "on-error": "#490006",
+                "error-container": "#9f0519",
+                "secondary-dim": "#9c48ea",
+                "surface-dim": "#060e20"
+              },
+              fontFamily: {
+                "headline": ["Inter"],
+                "body": ["Inter"],
+                "label": ["Space Grotesk"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .grid-pattern {
+            background-image: radial-gradient(circle, #40485d 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .cursor-blink {
+            display: inline-block;
+            width: 8px;
+            height: 1.2em;
+            background-color: #53ddfc;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #060e20; }
+        ::-webkit-scrollbar-thumb { background: #192540; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #53ddfc; }
+      </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary/30 selection:text-primary-fixed">
+<!-- Grid Overlay -->
+<div class="fixed inset-0 grid-pattern opacity-[0.05] pointer-events-none z-0"></div>
+<!-- Navigation -->
+<nav class="bg-slate-900/60 backdrop-blur-xl font-mono text-sm tracking-tight rounded-none border-b-0 max-w-4xl mx-auto mt-4 sticky top-4 z-50 shadow-[0_20px_40px_rgba(0,0,0,0.4)] flex items-center justify-between w-full px-6 h-12">
+<div class="text-lg font-bold text-purple-400 font-mono">Pritesh_Patil.sh</div>
+<div class="hidden md:flex items-center gap-1">
+<a class="bg-[#141f38] border-t-2 border-purple-500 text-cyan-400 px-4 py-2 transition-all" href="#">root</a>
+<a class="bg-[#060e20] text-slate-400 px-4 py-2 hover:bg-[#141f38] hover:text-cyan-300 transition-colors" href="#experience">experience</a>
+<a class="bg-[#060e20] text-slate-400 px-4 py-2 hover:bg-[#141f38] hover:text-cyan-300 transition-colors" href="#projects">projects</a>
+<a class="bg-[#060e20] text-slate-400 px-4 py-2 hover:bg-[#141f38] hover:text-cyan-300 transition-colors" href="#certs">certs</a>
+<a class="bg-[#060e20] text-slate-400 px-4 py-2 hover:bg-[#141f38] hover:text-cyan-300 transition-colors" href="#contact">contact</a>
+</div>
+<div class="flex items-center gap-4 text-cyan-400">
+<span class="material-symbols-outlined text-base">terminal</span>
+<span class="material-symbols-outlined text-base">code</span>
+</div>
+</nav>
+<main class="relative z-10 max-w-6xl mx-auto px-6 py-20 space-y-32">
+<!-- Hero Section -->
+<section class="relative" id="hero">
+<div class="bg-surface-container-high border border-outline-variant/20 rounded shadow-2xl overflow-hidden max-w-4xl mx-auto">
+<div class="bg-surface-container-highest px-4 py-2 flex items-center justify-between border-b border-outline-variant/10">
+<div class="flex gap-2">
+<div class="w-3 h-3 rounded-full bg-error-dim/40"></div>
+<div class="w-3 h-3 rounded-full bg-tertiary/40"></div>
+<div class="w-3 h-3 rounded-full bg-primary/40"></div>
+</div>
+<div class="text-[10px] font-label text-on-surface-variant tracking-widest uppercase">zsh — pritesh_patil</div>
+<div class="w-12"></div>
+</div>
+<div class="p-8 font-label text-lg md:text-2xl leading-relaxed">
+<div class="flex items-center gap-2 text-tertiary mb-4">
+<span class="text-secondary">➜</span>
+<span class="text-primary-fixed">~</span>
+<span class="text-on-surface">whoami</span>
+</div>
+<h1 class="font-headline font-extrabold text-4xl md:text-6xl text-on-surface mb-6 tracking-tight">
+<span class="text-primary">&gt;</span> Hi, I'm Pritesh Patil<span class="cursor-blink"></span>
+</h1>
+<p class="text-on-surface-variant max-w-2xl mb-8">
+<span class="text-secondary font-bold">Software Engineer</span>
+<span class="text-outline">=&gt;</span> Building scalable systems with <span class="text-tertiary">Java</span> &amp; <span class="text-tertiary">Spring Boot</span>. Currently optimizing backend performance for high-throughput applications.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 py-3 rounded-sm font-label font-bold uppercase tracking-wider flex items-center gap-2 hover:brightness-110 transition-all" href="#contact">
+<span class="material-symbols-outlined text-sm">send</span> EXECUTE_CONTACT
+                        </a>
+<a class="border border-outline-variant/30 text-primary px-6 py-3 rounded-sm font-label font-bold uppercase tracking-wider hover:bg-surface-variant transition-all" href="#projects">
+<span class="text-secondary">=&gt;</span> VIEW_REPOS
+                        </a>
+</div>
+</div>
+</div>
+<!-- Decorative Elements -->
+<div class="absolute -top-10 -right-10 text-[120px] font-bold text-secondary/5 select-none pointer-events-none">{}</div>
+<div class="absolute -bottom-10 -left-10 text-[120px] font-bold text-primary/5 select-none pointer-events-none">[]</div>
+</section>
+<!-- About Me / Skills (Bento) -->
+<section id="about"><h2 class="font-headline text-3xl font-bold mb-12 flex items-center gap-4">
+<span class="text-primary-fixed font-label text-xl">01.</span> ABOUT_SYSTEM
+    <div class="h-[1px] flex-grow bg-gradient-to-r from-outline-variant/50 to-transparent"></div>
+</h2>
+<div class="space-y-6">
+<!-- Top Row -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- CORE_DUMP -->
+<div class="md:col-span-8 bg-surface-container-low p-8 rounded border border-outline-variant/10 relative overflow-hidden group">
+<div class="absolute top-6 right-6 opacity-10">
+<span class="material-symbols-outlined text-6xl">database</span>
+</div>
+<h3 class="font-headline text-xl font-bold text-primary mb-6 flex items-center gap-2 uppercase tracking-tight">
+                TECH STACK
+            </h3>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">Java SE/EE</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">Spring Boot</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">Microservices</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">AWS Lambda</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">Docker &amp; K8s</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">Redis</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">PostgreSQL</span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface/80 border border-outline-variant/30 rounded font-label text-xs">JUnit/Mockito</span>
+</div>
+<p class="text-on-surface-variant leading-relaxed text-sm md:text-base max-w-2xl">
+                I focus on developing highly performant backend architectures. My approach blends the reliability of enterprise Java with the agility of modern cloud-native patterns to solve complex business logic challenges.
+            </p>
+</div>
+<!-- Problem Solving / Tech Stack Replacement Area -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded border-l-4 border-l-primary border border-outline-variant/10 flex flex-col justify-between">
+<div>
+<span class="material-symbols-outlined text-primary mb-4">terminal</span>
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Problem Solving</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                    Expert in data structures and algorithmic efficiency. Solved over 450+ problems on LeetCode with a focus on optimization.
+                </p>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded flex justify-between items-center">
+<span class="text-[10px] font-label text-primary font-bold tracking-widest">LEETCODE SCORE</span>
+<span class="text-xl font-extrabold">Top 5%</span>
+</div>
+</div>
+</div>
+<!-- Bottom Row -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- T20 Challenge -->
+<div class="md:col-span-4 bg-surface-container-low p-8 rounded border border-outline-variant/10">
+<span class="material-symbols-outlined text-secondary mb-4">workspace_premium</span>
+<div class="font-label text-xs text-on-surface-variant mb-1">T20 Challenge</div>
+<div class="text-3xl font-extrabold text-on-surface mb-1">Rank 5</div>
+<div class="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">NATIONAL CODING COMPETITION</div>
+</div>
+<!-- Education -->
+<div class="md:col-span-8 bg-surface-container-low p-8 rounded border border-outline-variant/10 flex items-center gap-8">
+<div class="w-24 h-24 bg-[#1a2c2c] rounded flex items-center justify-center border border-primary/10">
+<div class="text-center">
+<div class="text-[8px] text-primary/40 font-mono">ACADEMIC</div>
+<div class="text-[8px] text-primary/40 font-mono">FOUNDATION</div>
+</div>
+</div>
+<div>
+<div class="font-label text-[10px] text-primary uppercase tracking-widest mb-2">ACADEMIC FOUNDATION</div>
+<h3 class="text-2xl font-bold mb-1">Bachelor of Technology</h3>
+<p class="text-on-surface-variant text-sm mb-4">Focus on Computer Science &amp; Engineering</p>
+<div class="inline-flex items-center gap-2 bg-[#162535] px-4 py-1 rounded">
+<span class="text-primary font-bold">9.01</span>
+<span class="text-[10px] text-primary/40 font-label">CGPA GRADUATE</span>
+</div>
+</div>
+</div>
+</div>
+</div></section>
+<!-- Experience (Git Graph Style) -->
+<section id="experience">
+<h2 class="font-headline text-3xl font-bold mb-12 flex items-center gap-4">
+<span class="text-primary-fixed font-label text-xl">02.</span> COMMIT_HISTORY
+                <div class="h-[1px] flex-grow bg-gradient-to-r from-outline-variant/50 to-transparent"></div>
+</h2>
+<div class="relative pl-8 border-l-2 border-outline-variant/30 ml-4 space-y-12">
+<!-- Entry 1 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 w-4 h-4 rounded-full bg-primary ring-4 ring-background"></div>
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+<h3 class="font-headline text-xl font-bold text-on-surface">Senior Software Engineer <span class="text-primary">@ TechNova Solutions</span></h3>
+<span class="font-label text-sm text-on-surface-variant bg-surface-container px-3 py-1 rounded">2022 — PRESENT</span>
+</div>
+<p class="text-on-surface-variant max-w-3xl leading-relaxed">
+                        Leading the migration of monolithic legacy systems to Spring Boot microservices. Reduced system latency by 40% through intelligent caching strategies using Redis.
+                    </p>
+</div>
+<!-- Entry 2 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 w-4 h-4 rounded-full bg-secondary ring-4 ring-background"></div>
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+<h3 class="font-headline text-xl font-bold text-on-surface">Backend Developer <span class="text-secondary">@ CloudStream</span></h3>
+<span class="font-label text-sm text-on-surface-variant bg-surface-container px-3 py-1 rounded">2020 — 2022</span>
+</div>
+<p class="text-on-surface-variant max-w-3xl leading-relaxed">
+                        Developed scalable REST APIs and managed CI/CD pipelines. Optimized database queries for high-concurrency environments serving over 100k active users.
+                    </p>
+</div>
+<!-- Education -->
+<div class="relative pt-8">
+<div class="absolute -left-[41px] top-8 w-4 h-4 rounded-full bg-tertiary ring-4 ring-background"></div>
+<div class="flex flex-col md:flex-row md:items-center justify-between mb-2">
+<h3 class="font-headline text-xl font-bold text-on-surface">B.Tech in Computer Science</h3>
+<span class="font-label text-sm text-on-surface-variant bg-surface-container px-3 py-1 rounded">2016 — 2020</span>
+</div>
+<p class="text-on-surface-variant">University of Technology | GPA: 8.9/10.0</p>
+</div>
+</div>
+</section>
+<!-- Projects (IDE Tabs) -->
+<section id="projects">
+<h2 class="font-headline text-3xl font-bold mb-12 flex items-center gap-4">
+<span class="text-primary-fixed font-label text-xl">03.</span> WORKING_DIRECTORIES
+                <div class="h-[1px] flex-grow bg-gradient-to-r from-outline-variant/50 to-transparent"></div>
+</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Project 1 -->
+<div class="bg-surface-container-high rounded border border-outline-variant/20 overflow-hidden hover:shadow-[0_0_30px_rgba(83,221,252,0.15)] transition-all group">
+<div class="flex bg-surface-container-highest border-b border-outline-variant/10">
+<div class="px-4 py-2 bg-surface-container-high border-r border-outline-variant/10 flex items-center gap-2 text-xs font-label text-primary">
+<span class="material-symbols-outlined text-sm">terminal</span> FinanceTracker.java
+                        </div>
+<div class="px-4 py-2 border-r border-outline-variant/10 opacity-40 text-xs font-label flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">analytics</span> config.yml
+                        </div>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-2xl font-extrabold mb-4 group-hover:text-primary transition-colors">Personal Finance Tracker</h3>
+<p class="text-on-surface-variant mb-6 text-sm leading-relaxed">
+                            A robust full-stack application for expense tracking and budgeting. Built with Spring Boot and React, featuring automated category classification using basic ML.
+                        </p>
+<div class="flex gap-4">
+<a class="text-xs font-label text-secondary flex items-center gap-1 hover:underline" href="#">
+<span class="material-symbols-outlined text-sm">link</span> VIEW_LIVE
+                            </a>
+<a class="text-xs font-label text-primary flex items-center gap-1 hover:underline" href="#">
+<span class="material-symbols-outlined text-sm">code</span> REPOSITORY
+                            </a>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="bg-surface-container-high rounded border border-outline-variant/20 overflow-hidden hover:shadow-[0_0_30px_rgba(193,128,255,0.15)] transition-all group">
+<div class="flex bg-surface-container-highest border-b border-outline-variant/10">
+<div class="px-4 py-2 bg-surface-container-high border-r border-outline-variant/10 flex items-center gap-2 text-xs font-label text-secondary">
+<span class="material-symbols-outlined text-sm">terminal</span> StockAnalyzer.py
+                        </div>
+<div class="px-4 py-2 border-r border-outline-variant/10 opacity-40 text-xs font-label flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">description</span> README.md
+                        </div>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-2xl font-extrabold mb-4 group-hover:text-secondary transition-colors">Stock Sentiment Analyzer</h3>
+<p class="text-on-surface-variant mb-6 text-sm leading-relaxed">
+                            A real-time sentiment analysis tool that monitors Twitter and news feeds for stock tickers. Provides predictive heatmaps for potential market movement.
+                        </p>
+<div class="flex gap-4">
+<a class="text-xs font-label text-secondary flex items-center gap-1 hover:underline" href="#">
+<span class="material-symbols-outlined text-sm">link</span> VIEW_LIVE
+                            </a>
+<a class="text-xs font-label text-primary flex items-center gap-1 hover:underline" href="#">
+<span class="material-symbols-outlined text-sm">code</span> REPOSITORY
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Certs / Achievements -->
+<section id="certs">
+<h2 class="font-headline text-3xl font-bold mb-12 flex items-center gap-4">
+<span class="text-primary-fixed font-label text-xl">04.</span> LOGS_SUCCESS
+                <div class="h-[1px] flex-grow bg-gradient-to-r from-outline-variant/50 to-transparent"></div>
+</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 bg-surface-container border border-outline-variant/10 rounded group hover:bg-surface-variant transition-all">
+<div class="w-10 h-10 bg-primary/10 rounded flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div class="font-label text-[10px] text-tertiary mb-1">STDOUT &gt;&gt; SUCCESS</div>
+<h4 class="font-headline font-bold mb-2">AWS Solutions Architect</h4>
+<p class="text-xs text-on-surface-variant">Certified Associate - 2023</p>
+</div>
+<div class="p-6 bg-surface-container border border-outline-variant/10 rounded group hover:bg-surface-variant transition-all">
+<div class="w-10 h-10 bg-secondary/10 rounded flex items-center justify-center mb-4 text-secondary">
+<span class="material-symbols-outlined">emoji_events</span>
+</div>
+<div class="font-label text-[10px] text-tertiary mb-1">STDOUT &gt;&gt; SUCCESS</div>
+<h4 class="font-headline font-bold mb-2">T20 DSA Challenge</h4>
+<p class="text-xs text-on-surface-variant">Global Rank #5 out of 10,000+</p>
+</div>
+<div class="p-6 bg-surface-container border border-outline-variant/10 rounded group hover:bg-surface-variant transition-all">
+<div class="w-10 h-10 bg-tertiary/10 rounded flex items-center justify-center mb-4 text-tertiary">
+<span class="material-symbols-outlined">code_blocks</span>
+</div>
+<div class="font-label text-[10px] text-tertiary mb-1">STDOUT &gt;&gt; SUCCESS</div>
+<h4 class="font-headline font-bold mb-2">450+ LeetCode problems</h4>
+<p class="text-xs text-on-surface-variant">Proficient in Advanced DSA</p>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact">
+<div class="bg-surface-container-lowest p-8 md:p-12 border border-outline-variant/20 rounded-xl max-w-4xl mx-auto shadow-2xl relative">
+<div class="absolute inset-0 bg-primary/5 blur-3xl rounded-full"></div>
+<div class="relative z-10 grid md:grid-cols-2 gap-12">
+<div>
+<h2 class="font-headline text-3xl font-bold mb-4">ping pritesh.patil</h2>
+<p class="text-on-surface-variant mb-8 font-label">Ready to start a conversation about scalable systems or creative tech solutions? Reach out via terminal or standard channels.</p>
+<div class="space-y-4 font-label">
+<div class="flex items-center gap-4 group">
+<span class="text-primary">=&gt;</span>
+<a class="text-on-surface hover:text-primary transition-colors" href="mailto:pritesh@example.com">pritesh.patil@dev.local</a>
+</div>
+<div class="flex items-center gap-4 group">
+<span class="text-secondary">=&gt;</span>
+<a class="text-on-surface hover:text-secondary transition-colors" href="#">linkedin.com/in/pritesh-patil</a>
+</div>
+<div class="flex items-center gap-4 group">
+<span class="text-tertiary">=&gt;</span>
+<a class="text-on-surface hover:text-tertiary transition-colors" href="#">github.com/pritesh-dev</a>
+</div>
+</div>
+</div>
+<form class="space-y-4">
+<div class="space-y-1">
+<label class="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">User_Identification</label>
+<input class="w-full bg-surface-container-high border-none text-on-surface focus:ring-1 focus:ring-primary font-label text-sm p-4" placeholder="Your Name" type="text"/>
+</div>
+<div class="space-y-1">
+<label class="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">Contact_Endpoint</label>
+<input class="w-full bg-surface-container-high border-none text-on-surface focus:ring-1 focus:ring-primary font-label text-sm p-4" placeholder="Email Address" type="email"/>
+</div>
+<div class="space-y-1">
+<label class="font-label text-[10px] text-on-surface-variant uppercase tracking-widest">Message_Payload</label>
+<textarea class="w-full bg-surface-container-high border-none text-on-surface focus:ring-1 focus:ring-primary font-label text-sm p-4" placeholder="Type your message here..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary font-label font-bold py-4 hover:brightness-110 transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">terminal</span> TRANSMIT_MESSAGE
+                        </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#060e20] py-12 border-t border-slate-800/20">
+<div class="flex flex-col md:flex-row items-center justify-around w-full max-w-7xl mx-auto gap-8 font-mono text-xs uppercase tracking-widest">
+<div class="text-purple-400 font-mono">© 2024 PRITESH PATIL | [v1.0.4-stable]</div>
+<div class="flex gap-8">
+<a class="text-slate-500 hover:text-purple-400 transition-all" href="#">github</a>
+<a class="text-slate-500 hover:text-purple-400 transition-all" href="#">linkedin</a>
+<a class="text-slate-500 hover:text-purple-400 transition-all" href="#">stack_overflow</a>
+</div>
+<div class="text-cyan-500">
+                STATUS: <span class="text-tertiary">SYSTEM_READY</span>
+</div>
+</div>
+</footer>
+</body></html>
